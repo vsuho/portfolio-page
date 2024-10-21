@@ -16,6 +16,15 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.about-page{
+    max-width: 800px;
+    max-height: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: hsl(0, 0%, 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 header{
     background-color: rgba(67, 68, 67, 0.911);
     text-align:center;
@@ -208,9 +217,11 @@ input[type=email],
         height: auto;
     }
 
-    .contact, table {
+    .contact {
         max-width: 90%; /* Lomakkeen leveyden mukautus tableteille */
     }
+
+
 }
 
 @media screen and (max-width: 480px) {
@@ -224,8 +235,13 @@ input[type=email],
         font-size: 14px; /* Pienennetty fonttikoko mobiilissa */
     }
 
-    .contact, table {
+    .contact {
         max-width: 100%; /* Lomakkeen leveyden mukautus mobiililaitteille */
+    }
+
+    .about-page{
+        width: auto;
+        height: auto;
     }
 
     .project-card {
