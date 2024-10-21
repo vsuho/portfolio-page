@@ -8,8 +8,8 @@ body{
 }
 
 .homepage{
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 100%;
+    max-height: 100%;
     margin: 0 auto;
     padding: 20px;
     background: hsl(0, 0%, 100%);
@@ -17,8 +17,8 @@ body{
 }
 
 .about-page{
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 60%;
+    max-height: 100%;
     margin: 0 auto;
     padding: 20px;
     background: hsl(0, 0%, 100%);
@@ -74,20 +74,20 @@ footer{
 
 @media screen and (max-width:600px){
     footer, .about-page, .code-image{
-        width: 90%; /* Leveys täyttää lähes koko näytön mobiilissa */
-        height: auto; /* Anna elementin venyä sisällön mukaan */
-        padding: 10px; /* Vähennetään täytettä mobiilissa */
-        box-shadow: none; /* Poistetaan varjostus mobiilissa, jos haluat kevyemmän ilmeen */
+        width: 90%; 
+        height: auto; 
+        padding: 10px; 
+        box-shadow: none; 
     }
 
     p {
-        font-size: 16px; /* Pienempi fonttikoko mobiilissa */
-        line-height: 1.5; /* Parempi luettavuus pienillä näytöillä */
+        font-size: 16px; 
+        line-height: 1.5; 
     }
 
     h1, h2, h3 {
-        font-size: 1.5rem; /* Otsikoiden fonttikoon skaalautuminen */
-        text-align: center; /* Keskitetään otsikot mobiilissa */
+        font-size: 1.5rem; 
+        text-align: center; 
     }
 }
     

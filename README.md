@@ -31,7 +31,7 @@ contact.html rivi 51 -->
 
 3/5 **Implementation of responsive design elements** - Kyllä.
 
-Kaikissa HTML-dokumenteissa on hyödynnetty viewporttia ja 
+Kaikissa HTML-dokumenteissa on hyödynnetty viewporttia ja flexboxia on käytetty.
 
 ## JavaScript Basics
 
