@@ -74,13 +74,24 @@ footer{
 
 @media screen and (max-width:600px){
     footer, .about-page, .code-image{
-        width: 100%;
-        height: 90%;
-        margin-top:auto;
-        
+        width: 90%; /* Leveys täyttää lähes koko näytön mobiilissa */
+        height: auto; /* Anna elementin venyä sisällön mukaan */
+        padding: 10px; /* Vähennetään täytettä mobiilissa */
+        box-shadow: none; /* Poistetaan varjostus mobiilissa, jos haluat kevyemmän ilmeen */
     }
-    
+
+    p {
+        font-size: 16px; /* Pienempi fonttikoko mobiilissa */
+        line-height: 1.5; /* Parempi luettavuus pienillä näytöillä */
+    }
+
+    h1, h2, h3 {
+        font-size: 1.5rem; /* Otsikoiden fonttikoon skaalautuminen */
+        text-align: center; /* Keskitetään otsikot mobiilissa */
+    }
 }
+    
+
 
 #projects {
     text-align: center;
