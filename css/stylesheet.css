@@ -4,6 +4,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
 }
 
 .homepage{
@@ -136,13 +137,13 @@ footer{
     
 }
 
-#projects p{
+ p{
     font-size: 20px;
 }
 
 #portfolio p{
     text-align: center;
-    padding: 150px;
+    padding: 10%;
 }
 
 .contact{
@@ -195,5 +196,45 @@ input[type=email],
 }
 
 
+@media screen and (max-width: 768px) {
+    .project-grid {
+        flex-direction: column; /* Kortit päällekkäin */
+        justify-content: center;
+        align-items: center;
+    }
 
+    .project-card {
+        width: 90%; /* Muutettu korttien leveydeksi pienemmillä näytöillä */
+        height: auto;
+    }
+
+    .contact {
+        max-width: 90%; /* Lomakkeen leveyden mukautus tableteille */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar a {
+        display: block; /* Navigointilinkit pystysuuntaisiksi mobiilissa */
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    body {
+        font-size: 14px; /* Pienennetty fonttikoko mobiilissa */
+    }
+
+    .contact {
+        max-width: 100%; /* Lomakkeen leveyden mukautus mobiililaitteille */
+    }
+
+    .project-card {
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    footer {
+        padding: 1em;
+    }
+}
 
