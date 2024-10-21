@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+<header>
+    <h1>Portfolio</h1>
+   
+</header>
+
+
+<nav class="navbar">
+    <a href="index.html"><i class="fas fa-home"></i> </a>
+    <a href="index.html#about">Tietoja</a>
+    <a href="projects.html">Projektit</a>
+    <a href="contact.html">Ota yhteyttä</a>
+</nav>
+
+<div class="contact">
+<section>
+    <h2>Ota yhteyttä minuun alla olevalla lomakkeella:</h2>
+    <div class="container">
+        <form id="contact">
+
+            <label for="name">Nimi</label>
+            <input type="text" id="name" name="name" required placeholder="Nimesi..">
+
+            <label for="email">Sähköposti</label>
+            <input type="email" id="email" name="email" required placeholder="Sähköpostisi..">
+
+            <label for="country">Maa</label>
+            <select id="country" name="country">
+              <option value="finland">Suomi</option>
+            </select>
+
+            <label for="message">Viesti</label>
+            <textarea id="message" name="message" required placeholder="Kirjoita tähän jotain.."></textarea>
+        
+            <input type="submit" value="Lähetä">
+            <p id="status"></p>
+          </form>
+<p>Voit myös lähettää suoraan sähköpostia painamalla sähköpostiosoitteestani <b><i>Yhteystiedot</i>-laatikosta.</b></p>
+<table>
+  <tr>
+    <th>Nimi</th>
+    <th>Kaupunki</th>
+    <th>Yhteystiedot</th>
+  </tr>
+  <tr>
+    <td>Ville Suhonen</td>
+    <td>Oulu</td>
+    <td><p><small><a href="mailto:villesuhonen66@gmail.com">villesuhonen66@gmail.com</a></small></p></td>
+
+</table>
+        </div>
+
+</section>
+</div>
+
+  
+    <footer>
+        <p class="copyright-text">© Copyright 2024 Ville Suhonen </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
