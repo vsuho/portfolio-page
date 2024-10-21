@@ -73,11 +73,13 @@ footer{
 }
 
 @media screen and (max-width:600px){
-    footer{
+    footer, .about-page, .code-image{
         width: 100%;
+        height: 90%;
         margin-top:auto;
         
     }
+    
 }
 
 #projects {
