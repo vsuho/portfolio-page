@@ -43,11 +43,23 @@ Flexboxia on käytetty.
 
 1/5 **Simple interactions (like alerts on button click)** - Kyllä. 
 
+main.js rivi 14
+
 2/5 **Multiple event listeners and basic DOM manipulations** - Kyllä.
+
+main.js rivi 41 -->
 
 3/5 **Use of arrays, objects, and functions** - Kyllä.
 
+main.js on käytetty olioita ja funktioita.
+
 4/5 **Advanced logic, looping through data, and dynamic DOM updates** - Kyllä.
+
+main.js rivi 49 -->
+
+
+
+
 
 5/5 **Consistent use of Object-Oriented JavaScript principles** - Ei.
 
