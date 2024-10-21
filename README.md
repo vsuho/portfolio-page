@@ -19,7 +19,7 @@ media: projektikorttien kuvat (projects.html rivi 35 -->) ja headerin animaatiot
 
 contact.html rivi 51 -->
 
-5/5 **Consistent use of semantic HTML throughout, ensuring better structure and understanding of the content** - Kyllä?
+5/5 **Consistent use of semantic HTML throughout, ensuring better structure and understanding of the content** - Kyllä
 
 
 
