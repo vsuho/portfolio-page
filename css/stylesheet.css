@@ -208,7 +208,7 @@ input[type=email],
         height: auto;
     }
 
-    .contact {
+    .contact, table {
         max-width: 90%; /* Lomakkeen leveyden mukautus tableteille */
     }
 }
