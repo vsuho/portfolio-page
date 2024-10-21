@@ -69,11 +69,11 @@ main.js rivi 49 -->
 
 main.js rivi 39 ja 63
 
-2/5 **Successful implementation of an AJAX call or Fetch** - Kyllä, tavallaan.
+2/5 **Successful implementation of an AJAX call or Fetch** - Kyllä
 
 main.js rivi 58 --> fetch post call lomakkeen tiedoista mutta koska ei ole palvelinta mihin tiedot menisi, tulee virhe
 
-3/5 **Data from the asynchronous call is displayed on the webpage**
+3/5 **Data from the asynchronous call is displayed on the webpage** - Kyllä
 
 Aiempaan liittyen: koska response ei ole ok, näytetään sivulla virheilmoitus hetken aikaa
 
