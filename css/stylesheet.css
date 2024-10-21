@@ -224,7 +224,7 @@ input[type=email],
         font-size: 14px; /* Pienennetty fonttikoko mobiilissa */
     }
 
-    .contact {
+    .contact, table {
         max-width: 100%; /* Lomakkeen leveyden mukautus mobiililaitteille */
     }
 
