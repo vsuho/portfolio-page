@@ -29,11 +29,11 @@ contact.html rivi 51 -->
 
 2/5 **Use of classes and IDs to style specific elements** - Kyllä.
 
-3/5 **Implementation of responsive design elements** - Kyllä.
+3/5 **Implementation of responsive design elements** - ?
 
 viewport ainakin ja media queries ainakin
 
-4/5 **Use of layouts for advanced user interfaces  (arrays, float, flexbox, css grid)** - Kyllä.
+4/5 **Use of layouts for advanced user interfaces  (arrays, float, flexbox, css grid)** - Kyllä?
 
 Flexboxia on käytetty.
 
