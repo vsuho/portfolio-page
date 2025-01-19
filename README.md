@@ -19,7 +19,7 @@ media: projektikorttien kuvat (projects.html rivi 35 -->) ja headerin animaatiot
 
 contact.html rivi 51 -->
 
-5/5 **Consistent use of semantic HTML throughout, ensuring better structure and understanding of the content** - Kyllä?
+5/5 **Consistent use of semantic HTML throughout, ensuring better structure and understanding of the content** - Kyllä
 
 
 
@@ -29,11 +29,11 @@ contact.html rivi 51 -->
 
 2/5 **Use of classes and IDs to style specific elements** - Kyllä.
 
-3/5 **Implementation of responsive design elements** - Kyllä.
+3/5 **Implementation of responsive design elements** - ?
 
 viewport ainakin ja media queries ainakin
 
-4/5 **Use of layouts for advanced user interfaces  (arrays, float, flexbox, css grid)** - Kyllä.
+4/5 **Use of layouts for advanced user interfaces  (arrays, float, flexbox, css grid)** - Kyllä?
 
 Flexboxia on käytetty.
 
@@ -43,11 +43,23 @@ Flexboxia on käytetty.
 
 1/5 **Simple interactions (like alerts on button click)** - Kyllä. 
 
+main.js rivi 14
+
 2/5 **Multiple event listeners and basic DOM manipulations** - Kyllä.
+
+main.js rivi 41 -->
 
 3/5 **Use of arrays, objects, and functions** - Kyllä.
 
+main.js on käytetty olioita ja funktioita.
+
 4/5 **Advanced logic, looping through data, and dynamic DOM updates** - Kyllä.
+
+main.js rivi 49 -->
+
+
+
+
 
 5/5 **Consistent use of Object-Oriented JavaScript principles** - Ei.
 
@@ -57,11 +69,11 @@ Flexboxia on käytetty.
 
 main.js rivi 39 ja 63
 
-2/5 **Successful implementation of an AJAX call or Fetch** - Kyllä, tavallaan.
+2/5 **Successful implementation of an AJAX call or Fetch** - Kyllä
 
 main.js rivi 58 --> fetch post call lomakkeen tiedoista mutta koska ei ole palvelinta mihin tiedot menisi, tulee virhe
 
-3/5 **Data from the asynchronous call is displayed on the webpage**
+3/5 **Data from the asynchronous call is displayed on the webpage** - Kyllä
 
 Aiempaan liittyen: koska response ei ole ok, näytetään sivulla virheilmoitus hetken aikaa
 
