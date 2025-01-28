@@ -11,9 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     
     // Jos käyttäjä on etusivulla, laitetaan kahden sekunnin päästä alert "Hei!" tulemaan
-    if(document.body.id === "home"){
+    /*if(document.body.id === "home"){
         window.setTimeout(alertFunction, 2000);
     }
+        */
 
 function resetIdleTime() {
     idleTime = 0; 
