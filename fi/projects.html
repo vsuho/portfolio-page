@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+<header>
+    <h1>Portfolio</h1>
+     <a href="/en/projects.html">
+    <img class="flag" src="../images/united-kingdom.png"  />  
+    </a>
+</header>
+
+<nav class="navbar">
+    <a href="index.html"><i class="fas fa-home"></i> </a>
+    <a href="projects.html">Projektit</a>
+</nav>
+
+<section id="projects">
+    <h2>Sovelluksen kuvaa painamalla avautuu sivu, jossa on lisää kuvia projektista!</h2>
+
+    <div class="project-grid">
+        <article class="project-card" id="spede">
+            <h3>Speden spelit -nopeustesti</h3>
+            <p>Tehtävänä oli rakentaa kuvaa muistuttava toteutus Arduino-mikrokontrollerista ja led-valoista, näyttäen tuloksia 7-segmenttinäytöltä. Valot syttyvät satunnaisesti ja pitäisi painaa valoa vastaavaa nappia (kuvasta poiketen oli valot ja napit erikseen).
+                Aina kun painetaan oikeaa nappia, lisätään yksi piste tulokseen ja näytetään se reaaliaikaisesti 7-segmenttinäytöllä.
+            </p>
+            <div class="card-image">
+                <img src="../images/speden_spelit.PNG" alt="Arduino-mikrokontrolleri ja led-valot Speden spelit -nopeustestissä">
+            </div>
+        </article>
+        <article class="project-card" id="virtual">
+            <h3>Virtuaalinen pankkiautomaatti</h3>
+            <p>Toteutimme kuvan mukaisen virtuaalisen pankkiautomaatti-simulaation, jossa tilille päästään RFID-lukijan avulla. Käyttöliittymä on tehty Qt Widgetillä ja tiedot haetaan MySQL-tietokannasta HTTP-pyyntöjen avulla. </p>
+            <div class="card-image">
+                <img src="../images/bankaut.PNG" alt="Virtuaalinen pankkiautomaatti-simulaatio">
+            </div>
+
+                <p>Projektin Github: <a href="https://github.com/vsuho/Virtual-ATM-simul" style="color:white;" >https://github.com/vsuho/Virtual-ATM-simul</a></p>
+        </article>
+        <article class="project-card" id="movieApp">
+            <h3>Leffasivu</h3>
+           
+            <p>Toteutimme leffasovelluksen Reactilla, jossa voi muun muassa selata elokuvia erinäisillä kriteereillä. Sovelluksesta voi myös katsoa Finnkinon näytösaikoja, jotka haetaan Finnkinon APIsta.
+                 Sovellukseen voi luoda oman tilin, jolla voi kirjoittaa esimerkiksi arvosteluja elokuville. Arvostelut ja käyttäjätiedot tallennetaan MySQL-tietokantaan. Backend tehtiin Node.js:llä.
+            </p>
+            <a href="movie.html">
+            <img src="../images/leffasivu.PNG" alt="Leffasivu harrastelijoille">
+            </a>
+            <p>Projektin Github: <a href="https://github.com/movieApp-19" style="color:white;" >https://github.com/movieApp-19</a></p>
+        </article>
+          <article class="project-card" id="healthApp">
+            <h3>Terveyssovellus</h3>
+           
+            <p>Toteutimme mobiilisovelluksen React Nativella ja Expolla, jossa on ominaisuutena askeleiden näyttäminen, unen ja liikunnan seuranta, BMI- ja kalorilaskuri, sekä ruokapäiväkirja, hyödyntäen Finelin APIa ravintotietojen saamiseen.
+                Tiedot tallennettiin Firestoreen.
+            </p>
+            <a href="reach.html">
+            <img class="reach" src="../images/reach.png" alt="Terveyssovellus mobiiliin">
+            </a>
+            <p>Projektin Github: <a href="https://github.com/Mobile-development-R19/Health-app" style="color:white;" >https://github.com/Mobile-development-R19/Health-app</a></p>
+        </article>
+    </div>
+</section>
+
+    <footer>
+        <p class="copyright-text">© 2025 Ville Suhonen </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+
+

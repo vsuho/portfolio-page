@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+<header>
+    <h1>Portfolio</h1>
+     <a href="/fi/projects.html">
+    <img class="flag" src="../images/finland.png"  />  
+    </a>
+</header>
+
+<nav class="navbar">
+    <a href="../en/index.html"><i class="fas fa-home"></i> </a>
+    <a href="../en/projects.html">Projects</a>
+</nav>
+
+<section id="projects">
+    <h2>Click project picture to showcase more photos!</h2>
+
+    <div class="project-grid">
+        <article class="project-card" id="spede">
+            <h3>Speden spelit -speedtest</h3>
+            <p>
+                The task was to build an implementation that resembled the image. An Arduino microcontroller, buttons, and led lights were used, and the result was showed on a seven-segment display. The idea was to press a button corresponding to the light. Unlike the picture, the buttons and lights were separate.
+                If a correct button was pressed, the score was added by one, displayed real-time on the display, and next light was turned on. If a wrong button was pressed, the game ended and there was a certain sound for losing the game. The logic for the game was programmed in Arduino IDE.
+            </p>
+            <div class="card-image">
+                <img src="../images/speden_spelit.PNG" alt="Arduino-mikrokontrolleri ja led-valot Speden spelit -nopeustestissä">
+            </div>
+        </article>
+        <article class="project-card" id="virtual">
+            <h3>Virtual ATM simulation</h3>
+            <p>We implemented a virtual ATM simulation with Qt as showed in the picture. RFID reader was used to get into the account. The UI is made with Qt Widget and all of the information is retrieved from a MySQL database using HTTP requests.
+                The features include changing account to debit/credit, deposit, withdraw, account balance, and transactions.
+            </p>
+            <div class="card-image">
+                <img src="../images/bankaut.PNG" alt="Virtuaalinen pankkiautomaatti-simulaatio">
+            </div>
+
+                <p>Project GitHub: <a href="https://github.com/vsuho/Virtual-ATM-simul" style="color:white;" >https://github.com/vsuho/Virtual-ATM-simul</a></p>
+        </article>
+        <article class="project-card" id="movieApp">
+            <h3>Movie app</h3>
+            <p>
+                We implented a movie web page with React. The features of the app include displaying trending movies on the front page, browsing movies using different filters, and looking up Finnkino showtimes that are received from Finnkino API. An account can be created
+                to create or join fangroups and write reviews for movies. MySQL database was used to store all user information and backend was created with Node.js.
+            </p>
+            <a href="movie.html">
+            <img src="../images/leffasivu.PNG" alt="Leffasivu harrastelijoille">
+            </a>
+            <p>Project GitHub: <a href="https://github.com/movieApp-19" style="color:white;" >https://github.com/movieApp-19</a></p>
+        </article>
+          <article class="project-card" id="healthApp">
+            <h3>Health app for mobile</h3>
+           
+            <p>We implemented a mobile health app using React Native and Expo framework. The features include steps, sleep, excercise, calculators (BMI, calories), and eating. Fineli API is used to get the ingredients of a certain food, which are then used in the app.
+                Also there are graphs to visualise the steps and sleep data.
+            </p>
+             <a href="reach.html">
+            <img class="reach" src="../images/reach.png" alt="Health app for mobile">
+            </a>
+            <p>Project GitHub: <a href="https://github.com/Mobile-development-R19/Health-app" style="color:white;" >https://github.com/Mobile-development-R19/Health-app</a></p>
+        </article>
+    </div>
+</section>
+
+    <footer>
+        <p class="copyright-text">© 2025 Ville Suhonen </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+
+

@@ -6,9 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
     let idleTime = 0; // Käyttäjän epäaktiivisuus aika
     const idleLimit = 300; // Epäaktiivisuusaika maksimissaan 300s
 
+    /*
     function alertFunction(){
         alert("Hei!");
     }
+        */
     
     // Jos käyttäjä on etusivulla, laitetaan kahden sekunnin päästä alert "Hei!" tulemaan
     /*if(document.body.id === "home"){
@@ -66,6 +68,7 @@ setInterval(checkIdle, 1000);
             }, 10000)
         }
 
+        
         // Kerätään syötetyt tiedot formData-olioon
         const formData = {
             name: document.getElementById("name").value,
@@ -94,3 +97,4 @@ setInterval(checkIdle, 1000);
         }
     });
 })
+    
