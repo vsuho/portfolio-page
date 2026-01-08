@@ -155,12 +155,13 @@ footer{
     width: 500px;
     height: 600px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-    color:rgb(255, 255, 255)
+    color:rgb(255, 255, 255);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .project-card:hover{
-    font-size: 18px;
-    padding: 25px;
+     transform: scale(1.01);
+     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 
@@ -260,6 +261,12 @@ input[type=email],
 
 .movieApp-pictures img {
     width: 50%;
+    height: auto;
+    padding: 10px;
+}
+
+.godot {
+    width: 70%;
     height: auto;
     padding: 10px;
 }
