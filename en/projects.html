@@ -27,6 +27,7 @@
     <div class="project-grid">
         <article class="project-card" id="spede">
             <h3>Speden spelit -speedtest</h3>
+            <h4>Oct–Dec 2023</h4>
             <p>
                 The task was to build an implementation that resembled the image. An Arduino microcontroller, buttons, and led lights were used, and the result was showed on a seven-segment display. The idea was to press a button corresponding to the light. Unlike the picture, the buttons and lights were separate.
                 If a correct button was pressed, the score was added by one, displayed real-time on the display, and next light was turned on. If a wrong button was pressed, the game ended and there was a certain sound for losing the game. The logic for the game was programmed in Arduino IDE.
@@ -37,6 +38,7 @@
         </article>
         <article class="project-card" id="virtual">
             <h3>Virtual ATM simulation</h3>
+            <h4>Mar–May 2024</h4>
             <p>We implemented a virtual ATM simulation with Qt as showed in the picture. RFID reader was used to get into the account. The UI is made with Qt Widget and all of the information is retrieved from a MySQL database using HTTP requests.
                 The features include changing account to debit/credit, deposit, withdraw, account balance, and transactions.
             </p>
@@ -48,6 +50,7 @@
         </article>
         <article class="project-card" id="movieApp">
             <h3>Movie app</h3>
+            <h4>Oct–Dec 2024</h4>
             <p>
                 We implented a movie web page with React. The features of the app include displaying trending movies on the front page, browsing movies using different filters, and looking up Finnkino showtimes that are received from Finnkino API. An account can be created
                 to create or join fangroups and write reviews for movies. MySQL database was used to store all user information and backend was created with Node.js.
@@ -59,6 +62,7 @@
         </article>
           <article class="project-card" id="healthApp">
             <h3>Health app for mobile</h3>
+            <h4>Mar–May 2025</h4>
            
             <p>We implemented a mobile health app using React Native and Expo framework. The features include steps, sleep, excercise, calculators (BMI, calories), and eating. Fineli API is used to get the ingredients of a certain food, which are then used in the app.
                 Also there are graphs to visualise the steps and sleep data.
@@ -69,14 +73,63 @@
             <p>Project GitHub: <a href="https://github.com/Mobile-development-R19/Health-app" style="color:white;" >https://github.com/Mobile-development-R19/Health-app</a></p>
         </article>
 
-        <article class="project-card" id="healthApp">
+        <article class="project-card" id="godotApp">
             <h3>Godot "horror" game</h3>
+            <h4>Oct–Dec 2025</h4>
            
             <p>We implemented a simple 3D game with Godot engine and GDScript. The player spawns in basement and has to find a key to unlock the door to get to the first floor. There is also a key in the first floor, which is needed to unlock the door that gets the player out from the house and wins the game. The player can find different items, such as weapons, to fight enemies and health packs to regain health.
             </p>
             <img class="godot" src="../images/godot.png" alt="Godot game">
             <p>Project Github: <a href="https://github.com/Godot3D-Peliprojekti/3DGodot" style="color:white;" >https://github.com/Godot3D-Peliprojekti/3DGodot</a></p>
             <p>Demovideo: <a href="https://www.youtube.com/watch?v=I9strAb2uvU" style="color:white;" >YouTube</a></p>
+        </article>
+
+        <article class="project-card" id="haltian">
+            <h3>Haltian IoT Platform Security Testing</h3>
+            <h4>Feb–Apr 2026</h4>
+            <p>As part of an international team of OAMK students, I took part in an ethical security assessment of Haltian's IoT platform. The project included both black-box and white-box phases. During the black-box phase, we gathered as much information about the system as we could from the outside. In the white-box phase, we were given demo credentials to access the platform.</p>
+            <p>In both phases, we looked for vulnerabilities using resources such as the OWASP Web Security Testing Guide
+                <br>
+                <br>
+                 An NDA prevents me from sharing the findings or technical details. However, Haltian was pleased with the project results, and I can share a certificate upon request.</p>
+        </article>
+
+        <article class="project-card" id="software-hardening">
+            <h3>Software Hardening for Developers</h3>
+            <h4>May–Jul 2026</h4>
+            <p>An independent, AI-assisted summer project at OAMK, documented as a learning diary (10 ECTS credits / 270 hours).</p>
+            <p>The course consists of eight chapters covering software security. It is mainly hands-on: using a Linux virtual machine, I tried out various tools, introduced vulnerabilities into code, and then fixed them.</p>
+            <p>Course topics:</p>
+            <ul>
+                <li>Secure development environments</li>
+                <li>Memory safety (C/C++)</li>
+                <li>Programming-language-specific software hardening</li>
+                <li>Operating system hardening</li>
+                <li>Cryptography, secrets, and authentication in code</li>
+                <li>Software supply chain security</li>
+                <li>Software hardening tools</li>
+            </ul>
+            <p>Learning diary: <a href="../files/software-hardening.pdf" target="_blank" rel="noopener" style="color:white;">View PDF (Finnish)</a></p>
+            <p>Course page: <a href="https://tl.oamk.fi/ai" style="color:white;">tl.oamk.fi/ai</a></p>
+        </article>
+
+        <article class="project-card" id="linux-yocto">
+            <h3>Building a Custom Linux with Yocto</h3>
+            <h4>Jul–Sep 2026</h4>
+            <p>An independent, AI-assisted summer project at OAMK, documented as a learning diary (10 ECTS credits / 270 hours).</p>
+            <p>The course consists of seven chapters whose exercises guided me through building a small Yocto Poky Linux image step by step.</p>
+            <p>Course topics:</p>
+            <ul>
+                <li>The embedded Linux landscape</li>
+                <li>Yocto fundamentals: Poky, BitBake, layers, and recipes</li>
+                <li>Image customization: recipes and image features</li>
+                <li>Configuring and building the vanilla Linux kernel source</li>
+                <li>Kernel customization: patches and out-of-tree modules</li>
+                <li>Boot methods: bootloaders and initramfs</li>
+                <li>Running a custom image: QEMU, KVM, and a Windows virtual machine</li>
+            </ul>
+            <p>Learning diary: <a href="../files/linux-yocto.pdf" target="_blank" rel="noopener" style="color:white;">View PDF (Finnish)</a></p>
+            <p>Course page: <a href="https://tl.oamk.fi/custom_linux/" style="color:white;">tl.oamk.fi/custom_linux/</a></p>
         </article>
     </div>
 </section>

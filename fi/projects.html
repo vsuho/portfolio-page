@@ -22,11 +22,12 @@
 </nav>
 
 <section id="projects">
-    <h2>Sovelluksen kuvaa painamalla avautuu sivu, jossa on lisää kuvia projektista!</h2>
+    <h2>Osassa projekteissa kuvaa painamalla avautuu sivu, jossa on lisää kuvia projektista!</h2>
 
     <div class="project-grid">
         <article class="project-card" id="spede">
             <h3>Speden spelit -nopeustesti</h3>
+            <h4> loka–joulu 2023</h4>
             <p>Tehtävänä oli rakentaa kuvaa muistuttava toteutus Arduino-mikrokontrollerista ja led-valoista, näyttäen tuloksia 7-segmenttinäytöltä. Valot syttyvät satunnaisesti ja pitäisi painaa valoa vastaavaa nappia (kuvasta poiketen oli valot ja napit erikseen).
                 Aina kun painetaan oikeaa nappia, lisätään yksi piste tulokseen ja näytetään se reaaliaikaisesti 7-segmenttinäytöllä.
             </p>
@@ -36,6 +37,7 @@
         </article>
         <article class="project-card" id="virtual">
             <h3>Virtuaalinen pankkiautomaatti</h3>
+            <h4> maalis–touko 2024</h4>
             <p>Toteutimme kuvan mukaisen virtuaalisen pankkiautomaatti-simulaation, jossa tilille päästään RFID-lukijan avulla. Käyttöliittymä on tehty Qt Widgetillä ja tiedot haetaan MySQL-tietokannasta HTTP-pyyntöjen avulla. </p>
             <div class="card-image">
                 <img src="../images/bankaut.PNG" alt="Virtuaalinen pankkiautomaatti-simulaatio">
@@ -45,6 +47,7 @@
         </article>
         <article class="project-card" id="movieApp">
             <h3>Leffasivu</h3>
+            <h4> loka–joulu 2024</h4>
            
             <p>Toteutimme leffasovelluksen Reactilla, jossa voi muun muassa selata elokuvia erinäisillä kriteereillä. Sovelluksesta voi myös katsoa Finnkinon näytösaikoja, jotka haetaan Finnkinon APIsta.
                  Sovellukseen voi luoda oman tilin, jolla voi kirjoittaa esimerkiksi arvosteluja elokuville. Arvostelut ja käyttäjätiedot tallennetaan MySQL-tietokantaan. Backend tehtiin Node.js:llä.
@@ -56,6 +59,7 @@
         </article>
           <article class="project-card" id="healthApp">
             <h3>Terveyssovellus</h3>
+            <h4> maalis–touko 2025</h4>
            
             <p>Toteutimme mobiilisovelluksen React Nativella ja Expolla, jossa on ominaisuutena askeleiden näyttäminen, unen ja liikunnan seuranta, BMI- ja kalorilaskuri, sekä ruokapäiväkirja, hyödyntäen Finelin APIa ravintotietojen saamiseen.
                 Tiedot tallennettiin Firestoreen.
@@ -66,9 +70,9 @@
             <p>Projektin Github: <a href="https://github.com/Mobile-development-R19/Health-app" style="color:white;" >https://github.com/Mobile-development-R19/Health-app</a></p>
         </article>
 
-         <article class="project-card" id="healthApp">
+         <article class="project-card" id="godotApp">
             <h3>Godot-pakopeli</h3>
-           
+            <h4> loka–joulu 2025</h4>
             <p>Toteutimme Godotilla yksinkertaisen 3D-pakopelin, jossa pelaajan tehtävänä on päästä pois talosta. Kellarikerroksesta löytyvällä avaimella pääsee 1. kerrokseen, josta on myös löydettävä avain jolla pääsee pois talosta, jolloin peli päättyy voittoon. Talosta voi löytää aseita ja ensiapua. Pelissä on vihollisia, joita pelaajan tulee välttää tai eliminoida löytämillään aseilla.
                 Pelilogiikka on toteutettu GDScriptillä.
             </p>
@@ -76,6 +80,70 @@
             <p>Projektin Github: <a href="https://github.com/Godot3D-Peliprojekti/3DGodot" style="color:white;" >https://github.com/Godot3D-Peliprojekti/3DGodot</a></p>
             <p>Demovideo: <a href="https://www.youtube.com/watch?v=I9strAb2uvU" style="color:white;" >YouTube</a></p>
         </article>
+
+        <article class="project-card" id="haltian">
+            <h3>Haltian IoT Platform Hacking
+            </h3>
+            <h4> helmi–huhti 2026</h4>
+           
+            <p>Yhdessä OAMKista koostuvien kansainvälisten opiskelijoiden kanssa harjoitimme eettistä hakkerointia Haltian IoT-alustalla. Projekti sisälsi sekä black box- että white box -vaiheen. Black box -vaiheessa keräsimme ulkopuolelta kaiken mahdollisen tiedon, minkä saimme irti Haltian järjestelmästä. White box -vaiheessa pääsimme kirjautumaan demotunnuksilla alustalle.
+                <br>
+                <br>
+                Molemmissa vaiheissa etsimme haavoittuvuuksia mm. OWASP Web Security Testing Guiden avulla.
+                <br>
+                <br>
+                Salassapitosopimus kieltää tulosten ja yksityiskohtien kertomisen. Haltian oli kuitenkin tyytyväinen projektin tuloksiin ja työstä on sertifikaatti olemassa, jonka voin jakaa tarvittaessa.
+            </p>
+        
+        </article>
+
+        <article class="project-card" id="software-hardening">
+            <h3>Software Hardening for Developers
+            </h3>
+            <h4> touko–heinä 2026</h4>
+           
+            <p>OAMKin itsenäisesti tehtävä, AI-avusteinen oppimispäiväkirjamuotoinen kesäprojekti. 10 op (270h).</p>
+            <p>Sisältää kahdeksan kappaletta, joissa kaikissa on softaturvallisuuteen liittyviin kysymyksiin vastauksia. Pääosin hands-on -tyylinen kurssi, jossa VM Linuxilla kokeilin työkaluja ja mm. aiheutin haavoittuvuuksia koodiin, jotka sitten korjasin.</p>
+            <p>Aiheita kurssilla:</p>
+            <ul>
+                <li>Turvallinen kehitysympäristö</li>
+                <li>Memory safety (C/C++)</li>
+                <li>Ohjelmointikielikohtainen software hardening</li>
+                <li>OS hardening</li>
+                <li>Cryptography, secrets ja authentication koodissa</li>
+                <li>Supply chain security</li>
+                <li>Software hardening -työkalut</li>
+            </ul>
+            <br>
+            <p>Oppimispäiväkirja: <a href="../files/software-hardening.pdf" target="_blank" rel="noopener" style="color:white;">Katso PDF</a> </p>
+            <p>Opettajan kurssisivu: <a href="tl.oamk.fi/ai" style="color:white;">tl.oamk.fi/ai</a></p>
+        
+        </article>
+
+         <article class="project-card" id="linux-yocto">
+            <h3>Building a Custom Linux with Yocto
+            </h3>
+            <h4> heinä–syys 2026</h4>
+           
+            <p>OAMKin itsenäisesti tehtävä, AI-avusteinen oppimispäiväkirjamuotoinen kesäprojekti. 10 op (270h).</p>
+            <p>Sisältää seitsemän kappaletta, joiden tehtävien avulla pala palalta rakensin pienen Yocto Poky Linux-imagen. </p>
+            <p>Aiheita kurssilla:</p>
+            <ul>
+                <li>Embedded Linux landscape</li>
+                <li>Yocto Fundamentals: Poky, BitBake, Layerit, Reseptit</li>
+                <li>Imagen kustomointi: Reseptit ja imagen ominaisuudet </li>
+                <li>Linux vanilla kernelin sourcen konfigurointi ja buildaus</li>
+                <li>Kernelin muokkaus: patchit, out-of-tree moduulit</li>
+                <li>Boot metodit: bootloaderit, initramfs</li>
+                <li>Custom imagen ajaminen: QEMU, KVM, Windowsin VM</li>
+            </ul>
+            <br>
+            <p>Oppimispäiväkirja: <a href="../files/linux-yocto.pdf" target="_blank" rel="noopener" style="color:white;">Katso PDF</a> </p>
+            <p>Opettajan kurssisivu: <a href="tl.oamk.fi/custom_linux/" style="color:white;">tl.oamk.fi/custom_linux/</a></p>
+        
+        </article>
+
+        
     </div>
 </section>
 

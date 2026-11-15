@@ -29,7 +29,7 @@ body{
 header{
     background-color: rgba(67, 68, 67, 0.911);
     display:flex;
-    justify-content: center;       /* keskittää otsikon */
+    justify-content: center;    
     align-items: center;     
     text-align:center;
     color:rgb(254, 255, 255);
@@ -80,31 +80,10 @@ footer{
     text-align:center;
     color:rgb(239, 245, 245);
     margin-top: auto;
+    width: 100%
     
 }
-
-@media screen and (max-width:600px){
-    footer, .about-page, .code-image img{
-        display: flex;
-        max-width: 70%;
-        height: auto; 
-        padding: 10px; 
-        box-shadow: none; 
-    }
-
-    p {
-        font-size: 16px; 
-        line-height: 1.5; 
-    }
-
-    h1, h2, h3 {
-        font-size: 1.5rem; 
-        text-align: center; 
-    }
-}
     
-
-
 #projects {
     text-align: center;
     display: flex;
@@ -152,8 +131,8 @@ footer{
     border-radius: 3%;
     padding: 1em;
     margin: 1em;
-    width: 500px;
-    height: 600px;
+    width: 20%;
+    height: 730px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
     color:rgb(255, 255, 255);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -162,6 +141,17 @@ footer{
 .project-card:hover{
      transform: scale(1.01);
      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.project-card ul {
+    text-align: left;
+    padding-left: 1.5em;
+    margin: 0.75em 0;
+}
+
+.project-card li {
+    margin-bottom: 0.35em;
+    line-height: 1.4;
 }
 
 
@@ -269,6 +259,20 @@ input[type=email],
     width: 70%;
     height: auto;
     padding: 10px;
+}
+
+
+@media (max-width: 650px) {
+  .about-page { display: block; max-width: none; margin: 0 12px; padding: 16px; box-sizing: border-box; }
+  .code-image { margin: 0; }
+  .code-image img { width: 100%; max-width: 100%; height: auto; }
+  p { font-size: 16px; line-height: 1.5; }
+  h1, h2, h3 { font-size: 1.5rem; }
+  header { padding: 12px; }
+  .navbar { padding: 8px; }
+  .navbar a { padding: 14px; }
+  .project-card { width: 100% }
+  .reach-pictures { grid-template-columns: 1fr; }
 }
 
 
